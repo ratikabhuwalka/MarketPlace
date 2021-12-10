@@ -1,0 +1,5 @@
+[12-Nov-2021 01:28:37 America/Boise] PHP Warning:  require_once(/home3/sakshika/public_html/api/database/connection.php): failed to open stream: No such file or directory in /home3/sakshika/public_html/api/users.php on line 7
+[12-Nov-2021 01:28:37 America/Boise] PHP Fatal error:  require_once(): Failed opening required '/home3/sakshika/public_html/api/database/connection.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/sakshika/public_html/api/users.php on line 7
+[12-Nov-2021 01:28:53 America/Boise] PHP Warning:  require_once(/home3/sakshika/public_html/api../database/connection.php): failed to open stream: No such file or directory in /home3/sakshika/public_html/api/users.php on line 7
+[12-Nov-2021 01:28:53 America/Boise] PHP Fatal error:  require_once(): Failed opening required '/home3/sakshika/public_html/api../database/connection.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/sakshika/public_html/api/users.php on line 7
+[12-Nov-2021 01:56:12 America/Boise] PHP Parse error:  syntax error, unexpected '}' in /home3/sakshika/public_html/api/users.php on line 11

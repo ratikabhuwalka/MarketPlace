@@ -1,0 +1,62 @@
+[25-Nov-2021 17:27:04 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[25-Nov-2021 18:57:34 America/Boise] PHP Warning:  require_once(/home3/sakshika/public_html/php../database/connection.php): failed to open stream: No such file or directory in /home3/sakshika/public_html/php/login-validation.php on line 4
+[25-Nov-2021 18:57:34 America/Boise] PHP Fatal error:  require_once(): Failed opening required '/home3/sakshika/public_html/php../database/connection.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/sakshika/public_html/php/login-validation.php on line 4
+[26-Nov-2021 10:31:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[26-Nov-2021 19:34:41 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[27-Nov-2021 10:38:34 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[28-Nov-2021 10:36:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[29-Nov-2021 10:35:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[30-Nov-2021 10:36:15 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[01-Dec-2021 10:33:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[02-Dec-2021 10:35:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[03-Dec-2021 10:31:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[05-Dec-2021 10:33:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[06-Dec-2021 10:31:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[06-Dec-2021 15:03:35 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[07-Dec-2021 10:35:37 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
+[07-Dec-2021 21:30:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/sakshika/public_html/php/products.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/sakshika/public_html/php/products.php on line 31
