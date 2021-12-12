@@ -15,6 +15,10 @@
                 </li>
 
                 <li class="nav-item">
+                    <a class="nav-link" href="highlyRatedProducts.php">Highly Rated Products</a>
+                </li>
+
+                <li class="nav-item">
                     <a class="nav-link" href="#">Account Info</a>
                 </li>
 

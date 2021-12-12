@@ -1,6 +1,7 @@
 <?php
 session_start();
 ?>
+
 <!DOCTYPE html>
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -20,19 +21,25 @@ session_start();
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
 	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-	<link href="css/admin.css" rel="stylesheet" type="text/css">	
+	<link href="css/bootstrap-icons.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+  <link href="css/aos.css" rel="stylesheet">
+	<link href="css/admin.css" rel="stylesheet" type="text/css">
+	<link href="css/dontbetrashy.css" rel="stylesheet" type="text/css">
 </head>
 <body class="admin-bg-gray">
+	<main>
+	<?php 
+		include("php/header.php"); 
+	?>
 	<div class="container">
 		<div class="col-md-12">
-			<h1 class="margin-bottom-15">Login - Don't Be Trashy!</h1>
-			<form class="form-horizontal admin-container second-chances-login-form margin-bottom-30" role="form" action="php/login-validation.php" method="post">
+			<form style="margin-top: 50px" class="form-horizontal admin-container second-chances-login-form" role="form" action="php/login-validation.php" method="post">
 
 			<div class="form-group">
 		    <div class="col-xs-12">		            
 		      <div class="control-wrapper">
-						<a class="btn btn-primary btn-lg btn-block" style="margin-left: 60px; background-color: #3b5998" href="#!" role="button">
+						<a id="btn-fblogin" href="<?php echo $loginUrl; ?>" class="btn btn-primary btn-lg btn-block" style="margin-left: 60px; color: #fff ;background-color: #0847d1">
 							<i class="fa fa-facebook fa-fw "></i>Continue with Facebook
           	</a>
 					</div>
@@ -45,7 +52,7 @@ session_start();
 		          <div class="col-xs-12">		            
 		            <div class="control-wrapper">
 		            	<label for="email" class="control-label fa-label"><i class="fa fa-user fa-medium"></i></label>
-		            	<input type="text" class="form-control" id="email_address" name="email_address" placeholder="Email Address">
+		            	<input type="email" class="form-control" id="email_address" name="email_address" placeholder="Email Address" required>
 		            </div>		            	            
 		          </div>              
 		        </div>
@@ -53,14 +60,14 @@ session_start();
 		          <div class="col-md-12">
 		          	<div class="control-wrapper">
 		            	<label for="password" class="control-label fa-label"><i class="fa fa-lock fa-medium"></i></label>
-		            	<input type="password" class="form-control" id="user_password" name="user_password" placeholder="Password">
+		            	<input type="password" class="form-control" id="user_password" name="user_password" placeholder="Password" required>
 		            </div>
 		          </div>
 		        </div>
 						<div class="d-flex justify-content-around align-items-center mb-4">
 
             <!-- Checkbox -->
-            <div class="form-check">
+            <!-- <div class="form-check">
               <input
                 class="form-check-input"
                 type="checkbox"
@@ -69,7 +76,7 @@ session_start();
                 checked
               />
               <label class="form-check-label" for="rememberMe"> Remember me </label>
-            </div>
+            </div> -->
             <a href="#!">Forgot password?</a>
           </div>
 
@@ -99,6 +106,7 @@ session_start();
 		      </form>
 		</div>
 	</div>
+</main>
 </body>
 </html>
 <?php

@@ -65,8 +65,8 @@ if (!(isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] != '')) 
                     <img style="width: 100%; height: 30vw; object-fit: cover;" src="images/lampstackImage.png" class="card-img-top" alt="My Lamp Stack">
                   </a>
                   <div class="card-body">
-                    <h5 class="card-title">MyLampStack</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">GreeenScape</h5>
+                    <p class="card-text">Let greenscape help with our large selections of shrubs, tree, plants, succlents, and more!</p>
                   </div>
                 </div>
               </div>
@@ -78,7 +78,7 @@ if (!(isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] != '')) 
                   </a>
                   <div class="card-body">
                     <h5 class="card-title">Second Chances</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">Thrifting made easy. Shop second hand from clothing, elctronics to gym equipments! We've got you covered.</p>
                   </div>
                 </div>
               </div>
@@ -91,24 +91,24 @@ if (!(isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] != '')) 
             <div class="row">
               <div class="col-sm-6">
               <div class="card mb-3">
-                  <a href="http://info.ratikabhuwalka.me/Books_Booze/#services">
+                  <a href="http://info.ratikabhuwalka.me/Books_Booze/products.php">
                     <img style="width: 100%; height: 30vw; object-fit: cover;" src="images/bnbImage.jpeg" class="card-img-top" alt="Books_Booze">
                   </a>
                   <div class="card-body">
                     <h5 class="card-title">Books_Booze</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">It's a tiny little nook for book lovers.</p>
                   </div>
                 </div>
               </div>
 
               <div class="col-sm-6">
                 <div class="card mb-3">
-                  <a href="http://mylampstack.com">
-                    <img style="width: 100%; height: 30vw; object-fit: cover;" src="images/books.jpeg" class="card-img-top" alt="Grad Techie">
+                  <a href="http://gradtechie.me/index.php#new-arrivals">
+                    <img style="width: 100%; height: 30vw; object-fit: cover;" src="images/gradtechie.jpeg" class="card-img-top" alt="Grad Techie">
                   </a>
                   <div class="card-body">
                     <h5 class="card-title">Grad Techie</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">The best renewed products at th lowest prices!</p>
                   </div>
                 </div>
               </div>

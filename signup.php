@@ -19,7 +19,7 @@ session_start();
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Don't Be Trashy!</title>
+        <title>Signup - Don't Be Trashy!</title>
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +48,7 @@ session_start();
             <div class="container">
                 <div class="row height d-flex justify-content-center align-items-center">
                     <div class="col-md-8">
-                        <form class="form-horizontal" style="margin-top: 40px;" role="form" action="addUser.php" method="post">
+                        <form class="form-horizontal" style="margin-top: 40px;" role="form" action="php/signup-validation.php" method="post">
                           <div class="row mb-4">
                             <div class="col">
                               <div class="form-outline">
